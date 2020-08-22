@@ -61,6 +61,6 @@ img {
   width: 125px;
 }
 /* Change the font-family of your list */
-li {
-  font-color: ;
+ul {
+  font-family: monospace;
 }

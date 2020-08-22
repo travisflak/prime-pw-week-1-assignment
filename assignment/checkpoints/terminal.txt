@@ -1,7 +1,7 @@
 # Type your responses on a new line
 
 # 1 - What is the command for listing the files in the current folder (directory)?
-li
+ls
 # 2 - What is the command for changing directories?
 cd
 # 3 - What is the command for going back a folder (to a parent directory)?
