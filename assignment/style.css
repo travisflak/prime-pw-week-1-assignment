@@ -1,6 +1,6 @@
 /* Give your page a fun background color */
 body {
-  background-color: powderblue;
+  background-color: #CCFFFF;
 }
 /* Make the header and footer a different color from the background */
 h1 {
@@ -13,6 +13,23 @@ footer {
 h1 {
   text-align: center;
   text-shadow: 2px 2px #066158;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+h3 {
+  text-align: center;
   animation-duration: 3s;
   animation-name: slidein;
 }
@@ -66,8 +83,8 @@ img {
   margin-top: 20px;
   position: relative;
   overflow: hidden;
-  width: 125px;
-  height: 225px;
+  width: 150px;
+  height: 200px;
   box-shadow: 0px 0px 30px 5px rgba(0,0,0,.3);
   transform: rotate(-2deg);
   border: 10px solid #fff;
@@ -151,4 +168,5 @@ img {
 /* Change the font-family of your list */
 ul {
   font-family: monospace;
+  text-emphasis-position: above;
 }
